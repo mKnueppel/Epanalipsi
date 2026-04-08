@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Epanalipsi</title>
+    <style>
+        :root {
+            --primary: #6200EE;
+            --text: #1a1a1a;
+            --muted: #666;
+            --bg: #fff;
+            --border: #e0e0e0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.7;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+        h2 { font-size: 1.3rem; margin-top: 2rem; margin-bottom: 0.75rem; color: var(--primary); }
+        h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+        p, li { margin-bottom: 0.6rem; }
+        ul { padding-left: 1.5rem; }
+        .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+        .tldr {
+            background: #f5f0ff;
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.25rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .tldr p { margin-bottom: 0.3rem; }
+        .no-list { list-style: none; padding-left: 0; }
+        a { color: var(--primary); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+        @media (prefers-color-scheme: dark) {
+            :root { --text: #e0e0e0; --bg: #121212; --muted: #999; --border: #333; }
+            .tldr { background: #1e1e2e; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy for Epanalipsi</h1>
+<p class="updated">Last Updated: January 14, 2026</p>
+
+<h2>Introduction</h2>
+<p>Epanalipsi ("remembrance" in Greek) is a privacy-focused period tracking application. Your privacy and the security of your personal health data are our highest priorities.</p>
+
+<h2>Our Privacy Commitment</h2>
+<p><strong>We do not collect, store, transmit, or share any of your personal data.</strong></p>
+<p>Epanalipsi is designed to be 100% offline and privacy-first. All your data stays on your device, under your control.</p>
+
+<h2>Information Storage</h2>
+
+<h3>What Data is Stored</h3>
+<p>The app stores the following information <strong>locally on your device only</strong>:</p>
+<ul>
+    <li><strong>Period cycle data</strong>: Start dates, end dates, cycle lengths</li>
+    <li><strong>Symptom logs</strong>: Symptom types, intensity levels, dates</li>
+    <li><strong>App preferences</strong>: Display settings, notification preferences</li>
+</ul>
+
+<h3>Where Data is Stored</h3>
+<p>All data is stored in a local SQLite database on your Android device using Android's Room Persistence Library. This database is:</p>
+<ul>
+    <li>Stored in your device's internal storage</li>
+    <li>Protected by Android's app sandboxing</li>
+    <li>Only accessible by the Epanalipsi app</li>
+    <li>Never transmitted over the internet</li>
+    <li>Never backed up to cloud services by default</li>
+</ul>
+
+<h3>How Long Data is Retained</h3>
+<p>Your data is retained indefinitely on your device until you:</p>
+<ul>
+    <li>Manually delete specific entries within the app</li>
+    <li>Clear the app's data through Android Settings</li>
+    <li>Uninstall the application</li>
+</ul>
+
+<h2>What We Don't Do</h2>
+<ul class="no-list">
+    <li><strong>No accounts or registration</strong> — We don't ask for your name, email, or any identifying information</li>
+    <li><strong>No cloud sync</strong> — Your data never leaves your device</li>
+    <li><strong>No analytics or tracking</strong> — We don't use Google Analytics, Firebase Analytics, or any tracking services</li>
+    <li><strong>No third-party services</strong> — We don't integrate with advertising networks, social media, or data brokers</li>
+    <li><strong>No data sharing</strong> — We cannot share your data because we never have access to it</li>
+    <li><strong>No location tracking</strong> — We don't request or use your location</li>
+    <li><strong>No camera or microphone</strong> — We don't access your camera or microphone</li>
+</ul>
+
+<h2>Permissions Required</h2>
+<p>The app requires <strong>no special permissions</strong> to function. It may optionally request:</p>
+<ul>
+    <li><strong>Notifications</strong> (Android 13+) — Only if you enable reminder notifications. Used to send period prediction reminders. You can deny this permission and the app will work normally.</li>
+</ul>
+
+<h2>Data Security</h2>
+<h3>On Your Device</h3>
+<ul>
+    <li>Data is protected by Android's built-in app sandboxing</li>
+    <li>No other apps can access Epanalipsi's data</li>
+    <li>If your device is encrypted, your data is encrypted</li>
+    <li>If you use device lock (PIN, pattern, biometric), your data is protected</li>
+</ul>
+
+<h3>Device Backup</h3>
+<p>If you have Android's automatic backup enabled, your app data may be backed up to Google Drive. This is controlled by your Android system settings, not by Epanalipsi. To disable: Settings &rarr; Google &rarr; Backup &rarr; Disable "Back up to Google Drive".</p>
+
+<h2>Your Rights and Control</h2>
+<p>You have complete control over your data:</p>
+<ul>
+    <li><strong>Access</strong>: View all your data directly within the app</li>
+    <li><strong>Modification</strong>: Edit or update any logged period or symptom data</li>
+    <li><strong>Deletion</strong>: Delete individual entries or clear all data via Android Settings &rarr; Apps &rarr; Epanalipsi &rarr; Storage &rarr; Clear Data</li>
+    <li><strong>Export</strong>: Export your data to JSON or CSV format</li>
+    <li><strong>Portability</strong>: All data formats are open and documented — no proprietary lock-in</li>
+</ul>
+
+<h2>Children's Privacy</h2>
+<p>Epanalipsi is not intended for children under 13. We do not knowingly collect data from children. Since the app requires no registration and stores all data locally, we have no way to determine the age of users.</p>
+
+<h2>Changes to This Policy</h2>
+<p>We may update this privacy policy to reflect changes in the app's functionality, privacy laws, or user feedback. When we make changes, we will update the "Last Updated" date. Significant changes will be announced in app update notes.</p>
+
+<h2>Third-Party Services</h2>
+<p>The app does not integrate with any third-party services for data collection or analytics. If we ever add optional third-party integrations, we will make them explicitly opt-in, update this policy, and provide easy opt-out mechanisms.</p>
+
+<h2>Data Breach Notification</h2>
+<p>Since we do not collect, store, or transmit your data to any servers, there is no central database to breach. Your data cannot be compromised through our systems. We recommend using device encryption, setting up a screen lock, and keeping your Android OS updated.</p>
+
+<hr>
+
+<h2>Legal Compliance</h2>
+
+<h3>GDPR (European Union)</h3>
+<p>Since we don't collect your data, most GDPR obligations don't apply. However, you can: view all data in the app, edit data at any time, delete all data, and export your data.</p>
+
+<h3>CCPA (California)</h3>
+<p>We do not sell or share personal information with third parties. You can delete all your data at any time.</p>
+
+<hr>
+
+<div class="tldr">
+    <h3>Summary (TL;DR)</h3>
+    <p>All data stays on your device.</p>
+    <p>No accounts, no cloud, no tracking.</p>
+    <p>No permissions required.</p>
+    <p>You control your data completely.</p>
+</div>
+
+<h2>Contact</h2>
+<p>If you have questions about this privacy policy or data handling:</p>
+<ul>
+    <li><strong>GitHub Issues</strong>: <a href="https://github.com/yourusername/epanalipsi/issues">Create an issue</a></li>
+    <li><strong>Email</strong>: your-email@example.com</li>
+</ul>
+<p>We will respond to privacy inquiries within 7 days.</p>
+
+</body>
+</html>
